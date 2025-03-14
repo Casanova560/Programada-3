@@ -32,7 +32,7 @@ while True:
         edad = int(input("Ingrese la edad que desea buscar: "))
         lista.buscar_por_edad(edad)
 
-    elif opcion == "5":  # <-- Se agrega la búsqueda por nombre/apellido
+    elif opcion == "5":
         texto = input("Ingrese un nombre o apellido para buscar: ")
         lista.buscar_por_nombre_o_apellido(texto)
 

@@ -94,7 +94,7 @@ class ListaDobleOrdenada:
             if current.getData().edad == edad:
                 encontrados.append(current.getData())
 
-            # Avanzar en la dirección correcta
+
             current = current.getNext() if diff_head <= diff_tail else current.getPrev()
 
         if encontrados:

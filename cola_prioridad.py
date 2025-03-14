@@ -38,10 +38,10 @@ class Cola_Prioridad_Personas:
         if self.__list:
             persona_eliminada = self.__list.getData()
             self.__list = self.__list.getNext()
-            print(f"🗑 Se eliminó de la cola: {persona_eliminada}")
+            print(f"Se eliminó de la cola: {persona_eliminada}")
             return persona_eliminada
         else:
-            print("⚠ La cola está vacía.")
+            print("La cola está vacía.")
             return None
 
 

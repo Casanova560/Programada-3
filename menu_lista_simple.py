@@ -28,11 +28,11 @@ while True:
         pos = int(input("Ingrese la posición de la persona que desea eliminar: "))
         lista.eliminar_por_posicion(pos)
 
-    elif opcion == "4":  # 🔍 Buscar por edad
+    elif opcion == "4":
         edad = int(input("Ingrese la edad que desea buscar: "))
         lista.buscar_por_edad(edad)
 
-    elif opcion == "5":  # 🔍 Buscar por nombre o apellido
+    elif opcion == "5":
         texto = input("Ingrese un nombre o apellido para buscar: ")
         lista.buscar_por_nombre_o_apellido(texto)
 

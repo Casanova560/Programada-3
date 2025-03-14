@@ -22,9 +22,9 @@ while True:
     elif opcion == "2":
         current = cola._Cola_Prioridad_Personas__list
         if current is None:
-            print("⚠ La cola está vacía.")
+            print("La cola está vacía.")
         else:
-            print("\n📌 Estado actual de la cola:")
+            print("\nEstado actual de la cola:")
             while current:
                 print(current.getData())
                 current = current.getNext()
